@@ -1,0 +1,19 @@
+
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="app.component.css">
+  <body>
+    <form>
+      <h1><b>Movie Box</b></h1> 
+      <h4>Login Here</h4>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter username" autocomplete="off" required><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter Password" autocomplete="off" maxlength="10" required><br><br>
+      <button onclick="myfun()">Login</button>
+  <script>
+    function myfun(){
+      alert("Login successful")
+    }
+  </script>
+      <P>Don't Have an account <a href="http://127.0.0.1:5500/registration/src/app/app.component.html">Sign in</a> </P>
+    </form>
